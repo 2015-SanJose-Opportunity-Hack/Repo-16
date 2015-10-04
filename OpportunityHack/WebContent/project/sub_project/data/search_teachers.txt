@@ -1,0 +1,167 @@
+<div class='panel panel-info'>
+<div class='panel-heading'>George Haggard</div>
+<div class='panel-body'>
+    <table>
+      <tr>
+        <th>Profession</th>
+        <th>:</th>
+        <th>Teacher</th>
+        <th width='50px'></th>
+        <th>San Jose</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Interests</td>
+        <td>:</td>
+        <td>Stage performance, Teaching</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td>thlynch@gmail.com</td>
+        <td></td>
+        <td>Available Times</td>
+        <td>:</td>
+        <td>15 Oct 2015 - 12th Dec 2015</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>:</td>
+        <td>+1 408-413-7834</td>
+        <td></td>
+        <td colspan="3">35 miles away from SFO location</td>
+      </tr>
+    </table>
+
+</div>
+
+<div class='panel panel-info'>
+<div class='panel-heading'>Edward Marshall</div>
+<div class='panel-body'>
+    <table>
+      <tr>
+        <th>Profession</th>
+        <th>:</th>
+        <th>Painter</th>
+        <th width='50px'></th>
+        <th>Sunnyvale</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Interests</td>
+        <td>:</td>
+        <td>Hiking, Teaching</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td>edmar903@gmail.com</td>
+        <td></td>
+        <td>Available Times</td>
+        <td>:</td>
+        <td>2 Feb 2016 - 12th Dec 2016</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>:</td>
+        <td>+1 408-413-7834</td>
+        <td></td>
+        <td colspan="3">3 miles away from SFO location</td>
+      </tr>
+    </table>
+
+</div>
+
+<div class='panel panel-info'>
+<div class='panel-heading'>Justin Kemp</div>
+<div class='panel-body'>
+    <table>
+      <tr>
+        <th>Entertainer</th>
+        <th>:</th>
+        <th>Painter</th>
+        <th width='50px'></th>
+        <th>Gilroy</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Interests</td>
+        <td>:</td>
+        <td>Teaching, Surfing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td>jkemp@gmail.com</td>
+        <td></td>
+        <td>Available Times</td>
+        <td>:</td>
+        <td>2 Oct 2015 - 12th Dec 2015</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>:</td>
+        <td>+1 408-234-9023</td>
+        <td></td>
+        <td colspan="3">15 miles away from SFO location</td>
+      </tr>
+    </table>
+
+</div>
+
+<div class='panel panel-info'>
+<div class='panel-heading'>Tirey Ford</div>
+<div class='panel-body'>
+    <table>
+      <tr>
+        <th>Entertainer</th>
+        <th>:</th>
+        <th>Teacher</th>
+        <th width='50px'></th>
+        <th>Hollister</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Interests</td>
+        <td>:</td>
+        <td>Teaching, Singing</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td>jkemp@gmail.com</td>
+        <td></td>
+        <td>Available Times</td>
+        <td>:</td>
+        <td>12 Oct 2015 - 24th Dec 2015</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>:</td>
+        <td>+1 408-457-3901</td>
+        <td></td>
+        <td colspan="3">40 miles away from SFO location</td>
+      </tr>
+    </table>
+
+</div>
