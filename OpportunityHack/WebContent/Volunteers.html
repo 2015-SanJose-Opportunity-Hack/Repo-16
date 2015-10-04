@@ -1,0 +1,282 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+     <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 30px;
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 10px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -50px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    .feature_list{
+      margin:80px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 10px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+    </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">PotSo</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Non-Profits</a></li>
+                    <li><a href="#">Volunteers</a></li>
+                    <li><a href="#">Search User Postings</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+           
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+ <!-- START THE FEATURETTES -->
+ <div class="feature_list">
+		<h2 class="featurette-heading">Volunteers</h2>
+		<form>
+        <div id="custom-search-input">
+             <div class="input-group col-md-12">
+                   <input type="text" id="tags" class="  search-query form-control" placeholder="Search Volunteers">
+                   <button type="submit" id="filter" class="ui-icon ui-icon-search" style="display: inline-block;">Search</button>
+                   <div class="dropdown" style="display:inline-block;margin-left:20px;">
+					  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    Category
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">Advocacy and Human Rights</a></li>
+					    <li><a href="#">Animals</a></li>
+					    <li><a href="#">Art and Culture</a></li>
+					    <li><a href="#">Education</a></li>
+					  </ul>
+					</div>
+             </div>
+      	</div>
+      	
+      	</form>
+      <hr class="featurette-divider">
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="img/saburi.jpg">
+        <h2 class="featurette-heading">Saburi Charity. <span class="muted">Turn mirrors into windows.</span></h2>
+        <p class="lead"><b>About Saburi Charity:</b> Two friends Reefath Rajali and Gopinath Desam decided to start Saburi Charitable Organization for supporting the education of under-privileged kids in India. They registered the organization with the city of San Jose, CA in 2013. They got the approval for this organization from the State of California in 2014. Saburi Charitable Foundation became a 501(c)3 registered non-profit in San Jose in 2014.</p>
+        <p class="lead"><b>Mission:</b> The purpose of the education is to turn mirrors into windows.When you look into a mirror it only shows you and inside of the building confining you and your thoughts. However if you make the mirror into a window you can look and see the world and open your minds to all the vast knowledge that’s out there. By establishing this non-profit organization we believe we could achieve the motto and help kids look beyond their self. </p>
+        <p class="lead"><b>Location:</b> San Jose </p>
+        <p class="lead"><b>User Ratings :</b> 5 &nbsp;&nbsp; <b>Number of Users Rated : </b>40</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="img/teachforamerica.png">
+        <h2 class="featurette-heading">Teach For America <span class="muted">See for yourself.</span></h2>
+        <p class="lead">Teach For America is part of a national teacher corps focused on raising student achievement in public schools.All students deserve great teachers—people who see their potential, help them find their passions, and realize their dreams. As a corps member, you will channel your ideas, energy, and experience to make a real, meaningful impact on your students. In return, you'll grow in ways you never imagined.Teaching is just the beginning. Your experience in the corps will prepare you to advocate for change over the course of your life, as an educator or from within another career. Many people point to their two years in the corps as among the most impactful of their lives—a period where they found passion, purpose and fell in love with teaching kids, with what it feels like to make an impact, with a sense of possibility.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="img/browser-icon-safari.png">
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+       <!-- /END THE FEATURETTES -->
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Team 16 Opportunity Hack &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </div>
+
+     
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/ext/jquery.js"></script>
+    <script src="js/ext/bootstrap-transition.js"></script>
+    <script src="js/ext/bootstrap-alert.js"></script>
+    <script src="js/ext/bootstrap-modal.js"></script>
+    <script src="js/ext/bootstrap-dropdown.js"></script>
+    <script src="js/ext/bootstrap-scrollspy.js"></script>
+    <script src="js/ext/bootstrap-tab.js"></script>
+    <script src="js/ext/bootstrap-tooltip.js"></script>
+    <script src="js/ext/bootstrap-popover.js"></script>
+    <script src="js/ext/bootstrap-button.js"></script>
+    <script src="js/ext/bootstrap-collapse.js"></script>
+    <script src="js/ext/bootstrap-carousel.js"></script>
+    <script src="js/ext/bootstrap-typeahead.js"></script>
+  
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  
+    <script src="js/non_profit.js"></script>
+  </body>
+</html>
